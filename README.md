@@ -10,6 +10,10 @@
 Here's how to use st.line_chart:
 ```python
 import streamlit as st
+import pandas as pd
+import numpy as np
+
+st.header('Line chart')
 
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
@@ -20,10 +24,31 @@ st.line_chart(chart_data)
 ```
 
 ## Line-by-line explanation
-The very first thing to do when creating a Streamlit app is to start by importing the `streamlit` library as `st` like so:
+The very first thing to do when creating a Streamlit app is to start by importing the `streamlit` library as `st` as well as other libraries like so:
 ```python
 import streamlit as st
+import pandas as pd
+import numpy as np
 ```
 
-## Further reading
+Next, we create a header text for the app:
+```python
+st.header('Line chart')
+```
 
+Then, we create a DataFrame of randomly generated numbers that contains 3 columns.
+```python
+chart_data = pd.DataFrame(
+     np.random.randn(20, 3),
+     columns=['a', 'b', 'c'])
+```
+
+Finally, a line chart is created by using `st.line_chart()` with the DataFrame stored in the `chart_data` variable as  the input data:
+```python
+st.line_chart(chart_data)
+```
+
+
+## Further reading
+Read more about the following related Streamlit method from which `st.line_chart` is based on:
+[st.altair_chart](https://docs.streamlit.io/library/api-reference/charts/st.altair_chart)
