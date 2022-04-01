@@ -56,7 +56,6 @@ Finally, a line chart is created by using `st.line_chart()` with the DataFrame s
 st.line_chart(chart_data)
 ```
 
-
 ## Further reading
 Read more about the following related Streamlit method from which [`st.line_chart`](https://docs.streamlit.io/library/api-reference/charts/st.line_chart) is based on:
 - [`st.altair_chart`](https://docs.streamlit.io/library/api-reference/charts/st.altair_chart)
