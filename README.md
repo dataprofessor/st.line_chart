@@ -1,10 +1,10 @@
-# st.template
+# st.line_chart
 
-`st.template` allows writing text and arguments to the Streamlit app.
+`st.line_chart` allows writing text and arguments to the Streamlit app.
 
 ## Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st-template/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.line_chart/)
 
 ## Code
 Here's how to use st.write:
