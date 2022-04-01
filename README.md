@@ -7,7 +7,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.line_chart/)
 
 ## Code
-Here's how to use st.write:
+Here's how to use st.line_chart:
 ```python
 import streamlit as st
 
