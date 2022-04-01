@@ -7,7 +7,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.line_chart/)
 
 ## Code
-Here's how to use st.line_chart:
+Here's how to use [`st.line_chart`](https://docs.streamlit.io/library/api-reference/charts/st.line_chart):
 ```python
 import streamlit as st
 import pandas as pd
@@ -50,5 +50,5 @@ st.line_chart(chart_data)
 
 
 ## Further reading
-Read more about the following related Streamlit method from which `st.line_chart` is based on:
+Read more about the following related Streamlit method from which [`st.line_chart`](https://docs.streamlit.io/library/api-reference/charts/st.line_chart) is based on:
 - [st.altair_chart](https://docs.streamlit.io/library/api-reference/charts/st.altair_chart)
